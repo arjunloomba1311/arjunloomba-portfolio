@@ -47,7 +47,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          UCLA CS' 25 | Working at a Transportation startup called Urban Drive
+          UCLA Computer Science 2025 | Working at a Transportation startup called Urban Drive
           {/* <Link
             target="_blank"
             href="https://getlendit.com/"
