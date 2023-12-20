@@ -5,6 +5,7 @@ import Particles from "./components/particles";
 const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
+  { name: 'Resume', href: '/resume.pdf', download: true},
 ];
 
 export default function Home() {
@@ -13,6 +14,16 @@ export default function Home() {
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
+          item.name === 'Resume' ? (
+            <a
+              key={item.href}
+              href={item.href}
+              download
+              className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+            >
+              {item.name}
+            </a>
+          ) : (
             <Link
               key={item.href}
               href={item.href}
@@ -20,6 +31,7 @@ export default function Home() {
             >
               {item.name}
             </Link>
+          )
           ))}
         </ul>
       </nav>

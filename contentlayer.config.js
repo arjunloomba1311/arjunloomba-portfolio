@@ -42,6 +42,12 @@ export const Project = defineDocumentType(() => ({
 		repository: {
 			type: "string",
 		},
+		devpost: {
+			type: "string"
+		},
+		awards: {
+			type: "string",
+		},
 	},
 	computedFields,
 }));
