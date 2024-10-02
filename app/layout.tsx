@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "arjunrajloomba.com",
     template: "%s | arjunrajloomba.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Software Engineering Intern at The Trade Desk",
   openGraph: {
     title: "arjunrajloomba.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Software Engineering Intern at The Trade Desk",
     url: "https://chronark.com",
     siteName: "chronark.com",
     images: [
